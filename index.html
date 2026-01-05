@@ -182,7 +182,14 @@
                 <div class="method-header">
                     <h2 class="method-title">Dynamic Tasks</h2>
                     <p class="method-description">
-                        With the Generation Expert, InternVLA-A1 achieves stable and precise execution in complex, dynamic environments.
+                        To further validate the performance of our proposed InternVLA-A1, we designed two tasks involving 
+                        manipulation in dynamic scenes: Express Sorting and In-motion Ingredient Picking.  In the Express Sorting Task, the
+                        robot must first determine if the package label is facing upwards. If the label is facing downwards,
+                        a four-step sequence is initiated wherein the right arm first executes a “chasing” grasp along the
+                        direction of the conveyor movement, followed by flipping the package, after which the left arm
+                        performs a “waiting” grasp. Finally, the package is lifted to present the label to the head-mounted
+                        camera. In the In-motion Ingredient Picking tasks, two robots coordinate to grasp the ingredients
+                        required to assemble a beef sandwich, consisting of two slices of bread, a steak, and a piece of lettuce.
                     </p>
                 </div>
         
@@ -225,7 +232,8 @@
                 <div class="method-header">
                     <h2 class="method-title">Daily Tasks</h2>
                     <p class="method-description">
-                        InternVLA-A1 could further solve different tasks.
+                        InternVLA-A1 demonstrates leading performance across diverse daily tasks, ranging from dexterous manipulation (e.g., Unscrew Cap, Zip Bag, Sort Parts) to
+                        regular manipulation (e.g., Make Sandwich, Operate Oven, Sort Rubbish).
                     </p>
                 </div>
         
@@ -273,12 +281,23 @@
 
         <section id="real-world performance" class="detail-section">
             <div class="method-container">
+                <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+                <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
                 <div class="method-header">
                     <h2 class="method-title">Real-world Performance</h2>
                     <p class="method-description">
-                        On regular tasks, InternVLA-A1 outperforms π0 and GR00T N1.5.
+                        InternVLA-A1 demonstrates superior performance compared to the prior
+                        state-of-the-art models, \(\pi_0\) (3.3B) and GR00T N1.5 (3B). 
+                        InternVLA-A1 (3B) reaches an
+                        average success rate of 75.1%—a 14.5% absolute improvement over \(\pi_0\) across 10 diverse tasks.
                     </p>
                 </div>
+                <!-- <head> -->
+    <!-- 加载 MathJax -->
+                <!-- </head>
+                <body>
+                    <p>使用 MathJax：\(\pi = 3.14159\) 或 \[\pi = \frac{C}{d}\]</p>
+                </body> -->
         
                 <div class="spotlight-video-box">
                     <video 
