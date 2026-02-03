@@ -139,7 +139,7 @@
                 </div>
                 <p class="scroll-hint">SHITF + SCROLL TO EXPLORE →</p>
                 <p class="method-description">
-                    InternVLA-A1 exhibits remarkable superiority in highly dynamic scenarios, such as Express Sorting and In-motion Ingredient Picking, where it outperforms pi0.5 by +26.7%.
+                    InternVLA-A1 exhibits remarkable superiority in highly dynamic scenarios, such as Express Sorting and In-motion Ingredient Picking, outperforming pi0.5 by +26.7%.
                 </p>
 
                 <div style="width: 70%; margin: 2rem auto; text-align: center;">
@@ -233,23 +233,15 @@
         <section id="ablation" class="detail-section">
             <div class="method-container">
                 <div class="method-header">
-                    <h2 class="method-title">Ablation Study</h2>
+                    <h2 class="method-title">Ablation Studies</h2>
                     <p class="method-description">
-                        Without large-scale robot pretraining or the generation expert, InternVLA-A1 degrades dramatically.
+                        <strong>Impact of Pre-training</strong>: without large-scale pretraining, the performance degrades dramatically. This highlights pre-training as a critical inductive prior.
                     </p>
+                    <div style="width: 70%; margin: 2rem auto; text-align: center;">
+                    <img src="imgs/ablation_study_on_pretraining.png" 
+                        alt="Ablation Study on Pre-training" 
+                        style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
                 </div>
-        
-                <div class="spotlight-video-box">
-                    <video 
-                        autoplay 
-                        muted 
-                        loop 
-                        playsinline 
-                        webkit-playsinline 
-                        class="spotlight-video">
-                        <source src="videos/ablation.mp4" type="video/mp4">
-                    </video>
-                    <div class="video-tag">ABLATION STUDY</div>
                 </div>
             </div>
         </section>
