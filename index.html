@@ -71,7 +71,7 @@
             </div>
         </section>
 
-        <section id="xxx" class="detail-section">
+        <section id="highlights" class="detail-section">
             <section id="arch" class="detail-section">
                 <div class="method-container">
                     <div class="method-header">
@@ -106,7 +106,7 @@
             </section>
         </section>
 
-        <section id="highlights" class="detail-section">
+        <section id="dynamic_tasks" class="detail-section">
             <div class="method-container">
                 <div class="method-header">
                     <h2 class="method-title">Dynamic Manipulation Tasks</h2>
@@ -151,7 +151,7 @@
             </div>
         </section>
 
-        <section id="demos" class="detail-section">
+        <section id="static_tasks" class="detail-section">
             <div class="method-container">
                 <div class="method-header">
                     <h2 class="method-title">Static Manipulation Tasks</h2>
@@ -202,35 +202,7 @@
             </div>
         </section>
 
-        <!-- <section id="real-world performance" class="detail-section">
-            <div class="method-container">
-                <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-                <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-                <div class="method-header">
-                    <h2 class="method-title">Real-world Performance</h2>
-                    <p class="method-description">
-                        InternVLA-A1 demonstrates superior performance compared to the prior
-                        state-of-the-art models, \(\pi_0\) (3.3B) and GR00T N1.5 (3B). 
-                        InternVLA-A1 (3B) reaches an
-                        average success rate of 75.1%—a 14.5% absolute improvement over \(\pi_0\) across 10 diverse tasks.
-                    </p>
-                </div>        
-                <div class="spotlight-video-box">
-                    <video 
-                        autoplay 
-                        muted 
-                        loop 
-                        playsinline 
-                        webkit-playsinline 
-                        class="spotlight-video">
-                        <source src="videos/real_performance.mp4" type="video/mp4">
-                    </video>
-                    <div class="video-tag">REAL-WORLD PERFORMANCE</div>
-                </div>
-            </div>
-        </section> -->
-
-        <section id="ablation" class="detail-section">
+        <section id="ablation_studies" class="detail-section">
             <div class="method-container">
                 <div class="method-header">
                     <h2 class="method-title">Ablation Studies</h2>
@@ -241,14 +213,22 @@
                     <img src="imgs/ablation_study_on_pretraining.png" 
                         alt="Ablation Study on Pre-training" 
                         style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-                </div>
+                    </div>
+                    <p class="method-description">
+                        <strong>Impact of Pre-training Dataset</strong>: jointly pre-training on heterogeneous data sources (<em>human videos</em>, <em>synthetic data</em>, and <em>real-world demonstrations</em> ) achieves the best overall performance, demonstrating the effectiveness of our joint training strategy.
+                    </p>
+                    <div style="width: 60%; margin: 2rem auto; text-align: center;">
+                    <img src="imgs/ablation_study_on_pretraining_dataset.png" 
+                        alt="Ablation Study on Pre-training Dataset" 
+                        style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    </div>
                 </div>
             </div>
         </section>
-        <section id="team" class="detail-section">
+
+        <section id="contributors" class="detail-section">
             <div class="method-container">
                 <div class="method-header">
-                    <!-- justify-content: space-between 会把第一个元素顶到最左，第二个顶到最右 -->
                     <div style="display: flex; justify-content: space-between; align-items: baseline; width: 100%;">
                         <h2 class="method-title" style="margin-bottom: 0;">Core Contributors</h2>
                         <span style="font-size: 1.1rem; color: #666;"><sup>&Dagger;</sup> Project Lead</span>
