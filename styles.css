@@ -30,6 +30,15 @@ body {
     border-bottom: 1px solid var(--border-color);
 }
 
+/* 针对所有带有 id 的 section 或者特定的 class */
+.detail-section {
+    scroll-margin-top: 100px; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 .nav-inner {
     max-width: 1200px;
     margin: 0 auto;
